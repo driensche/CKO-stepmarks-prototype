@@ -1,0 +1,442 @@
+body {
+	font-family: AvenirLTStd-Book;
+	font-size: 16px;
+	line-height: 24px;
+	color: #484B4C;
+	max-width: 1440px;
+	margin: 0 auto;
+
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+}
+
+.price-table ul li {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.price-table ul li:last-child {
+	margin-bottom: 0;
+}
+
+ul.navbar {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	float: left;
+	width: 90%;
+	padding: 40px 5% 64px 5%;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+#logo {
+	width: 40%;
+	text-align: center;
+	float: left;
+}
+
+.nav-left {
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+.nav-right {
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+
+.nav-left, .nav-right {
+	font-family: AvenirLTStd-Roman;
+	font-size: 12px;
+	line-height: 20px;
+	color: #6F7575;
+	letter-spacing: 1px;
+}
+
+.nav-right a, .nav-right a:visited {
+	font-family: AvenirLTStd-Heavy;
+	text-decoration: none;
+	color: #6F7575;
+}
+
+#wrapper {
+	float: left;
+	width: 90%;
+	padding: 0 5%;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.thank-you {
+	max-width: 900px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#left-column {
+	width: 58.333333333%;
+	float: left;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#right-column {
+	width: 33.333333333%;
+	float: right;
+	max-width: 400px;
+}
+/* 1 column = 8.3333333333 */
+
+.price-table {
+	width: 100%;
+font-size: 14px;
+color: #6F7575;
+letter-spacing: 0px;
+line-height: 20px;
+margin: 0 0 16px 0;
+}
+
+.left-col {
+	width: 50%;
+	float: left;
+}
+
+.right-col {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.left-col.total, .right-col.total {
+	font-family: AvenirLTStd-Heavy;
+	font-size: 14px;
+	color: #6F7575;
+	letter-spacing: 0px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.section {
+	width: 100%;
+	margin: 32px 0;
+	float: left;
+}
+.section img {
+	margin-right: 24px;
+}
+.section img:last-child {
+	margin: 0;
+}
+.center {
+	text-align: center;
+}
+
+hr {
+	float: left;
+	background: #D8D8D8;
+	height: 1px;
+	margin: 16px 0;
+	border: 0;
+	width: 100%;
+}
+
+.cf {
+  overflow: auto;
+}
+
+/*  Form styles *****************/
+
+.ui.form input:not([type]), .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=search], .ui.form input[type=password], .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=tel], .ui.form input[type=time], .ui.form input[type=url], .ui.form input[type=number], .ui.form textarea, .ui.form select {
+    width: 100%;
+    vertical-align: top;
+}
+
+label {
+	font-size: 14px;
+	color: #6F7575;
+	letter-spacing: 0px;
+	line-height: 20px;
+}
+
+input, select {
+	background: #FFFFFF;
+	border: 1px solid #CBCCCB;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 16px;
+	padding: 16px;
+	margin: 4px 0 16px 0;
+}
+
+select {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.ui.form input.half {
+	width: 85%;
+    display: block;
+}
+.field-dropdown {
+	display: inline-block;
+	width: auto;
+	float: left;
+}
+.field-half {
+    display: inline-block;
+    width: 49%;
+    float: left;
+}
+.field-quarter {
+    display: inline-block;
+    width: 25%;
+    margin-left: 24px;
+}
+
+.button-container {
+	width: 100%;
+	text-align: center;
+}
+
+a.primary, a.primary:visited {
+	text-decoration: none;
+	display: inline-block;
+	background: #58EEB2;
+	font-family: AvenirNext-Bold;
+	font-size: 12px;
+	color: #52575B;
+	letter-spacing: 1px;
+	line-height: 16px;
+	padding: 16px;
+	border: 0;
+	text-transform: uppercase;
+	min-width: 208px;
+	margin: 16px auto 32px auto;
+}
+
+a.primary:hover, a.primary:active {
+	background: #81F2C4;
+	transition: 150ms;
+}
+
+#payment a.primary {
+	margin-bottom: 20px;
+}
+
+#thank-you a.primary {
+	margin-top: 32px;
+}
+
+.upcoming {
+	background: #F6F7F6;
+	font-family: AvenirLTStd-Heavy;
+	font-size: 14px;
+	color: #A7A9AC;
+	letter-spacing: 1.39px;
+	line-height: 16px;
+	padding: 16px;
+	text-transform: uppercase;
+	margin: 0 0 8px 0;
+	width: 100%;
+}
+
+.complete1, .complete2, .complete3 {
+	background: #F6F7F6;
+	color: #52565A;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 24px;
+	margin: 0 0 8px 0;
+	width: 100%;
+}
+
+
+.complete-text {
+	padding: 0;
+	float: left;
+}
+
+.complete-text img {
+	float: left;
+}
+.card-info {
+	float: left;
+	margin-left: 16px;
+}
+
+.complete1 h4, .complete2 h4, .complete3 h4 {
+	color: #52575B;
+	margin-bottom: 8px;
+}
+
+.edit {
+	float: right;
+}
+
+.edit a, .edit a:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+font-family: AvenirLTStd-Heavy;
+font-size: 12px;
+color: #797F83;
+letter-spacing: 0.5px;
+line-height: 16px;
+}
+
+#steps {
+	margin: 0 0 24px 0;
+}
+
+.current-step, .future-step, .completed-step {
+	float: left;
+	font-family: AvenirLTStd-Heavy;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #000000;
+	letter-spacing: 1.79px;
+	line-height: 20px;
+	margin-right: 32px;
+}
+
+.future-step {
+	color: #A7A9AC;
+}
+
+.completed-step {
+	color: #6F7575;
+}
+
+.current-step .step-number {
+	font-family: AvenirLTStd-Heavy;
+	letter-spacing: 0px;
+    background: #52575B;
+    padding: 4px 6px 2px 6px;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.future-step .step-number {
+	font-family: AvenirLTStd-Heavy;
+	letter-spacing: 0px;
+    background: #F0F0F0;
+    padding: 4px 6px 2px 6px;
+    border-radius: 9px;
+    color: #A7A9AC;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.completed-step .step-number {
+	color: transparent;
+	font-family: AvenirLTStd-Heavy;
+	letter-spacing: 0px;
+    background: #60EDB3 url("../img/green-check.svg") no-repeat;
+    padding: 4px 6px 2px 6px;
+    border-radius: 9px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.disabled {
+	opacity: .4;
+}
+
+/*       Typography      *************/
+
+h1 {
+font-family: AvenirLTStd-Black;
+font-size: 60px;
+color: #60EDB3;
+letter-spacing: 6px;
+line-height: 72px;
+text-transform: uppercase;
+margin: 88px 0 32px 0;
+}
+
+h2 {
+font-family: AvenirLTStd-Black;
+font-size: 40px;
+color: #797F83;
+letter-spacing: 4px;
+line-height: 48px;
+text-transform: uppercase;
+margin: 24px 0;
+}
+
+h3 {
+	font-family: AvenirLTStd-Heavy;
+	font-size: 18px;
+	color: #797F83;
+	letter-spacing: 1.79px;
+	line-height: 24px;
+	margin: 0 0 16px 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: AvenirLTStd-Heavy;
+	font-size: 14px;
+	color: #797F83;
+	letter-spacing: 1.39px;
+	line-height: 16px;
+	text-transform: uppercase;
+	margin: 0 0 16px 0;
+}
+
+.biggest {
+font-family: AvenirLTStd-Book;
+font-size: 23px;
+color: #484B4C;
+letter-spacing: 0px;
+line-height: 32px;
+margin: 24px 0;
+}
+
+.caption {
+	font-family: AvenirLTStd-BookOblique;
+	font-size: 12px;
+	color: #52575B;
+	letter-spacing: 0px;
+	line-height: 16px;
+	margin: 0 0 8px 0;
+	position: relative;
+	top: -8px;
+}
+
+.button-container .caption {
+	max-width: 240px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.legal {
+	float: left;
+	font-family: AvenirLTStd-Book;
+	font-size: 12px;
+	color: #6F7575;
+	letter-spacing: 0px;
+	line-height: 18px;
+}
+
+
+
+
+
+
+
